@@ -1,6 +1,39 @@
-body {
-    /* The image used */
-    background: black no-repeat;
-    height: 100%;
-    background-size: cover;
+@font-face {
+  font-family: "futura";
+  src: url("FuturaStd-Light.otf");
+}
+
+html,body {
+  /* The image used */
+  background: black no-repeat;
+  height: 100%;
+  background-size: cover;
+  color: white;
+  font-family: "futura", serif;
+  font-weight: 300;
+  color: #ccc;
+  -webkit-font-smoothing: antialiased;
+  text-align: center
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+}
+
+.row {
+  width: auto;
+}
+
+#introduce {
+  font-size: 24px;
+}
+
+.contact {
+  font-size: 20px;
+  padding-top: 30px;
 }
