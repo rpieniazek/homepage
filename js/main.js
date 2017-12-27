@@ -1,4 +1,4 @@
-var technologies = ['Spring', 'JavaScript', 'Angular', 'Hibernate','Jooq','AWS','Docker','MySQL','Redis','Dynamodb','Jenkins', 'Java'];
+var technologies = ['Spring', 'JavaScript', 'Angular', 'Hibernate','Jooq','AWS','Docker','MySQL','PostgreSQL','Redis','Jenkins', 'Java'];
 (function blink(techId) {
   var technologiesEl = $('#technologies');
   var switchNextTechnology = function() {
