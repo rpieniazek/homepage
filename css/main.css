@@ -5,7 +5,7 @@
 
 html,body {
   /* The image used */
-  background: black no-repeat;
+  background: rgb(26, 26, 26);
   height: 100%;
   background-size: cover;
   color: white;
@@ -23,17 +23,71 @@ html,body {
   flex-direction: column;
   position: relative;
   height: 100%;
+  font-size: 24px;
 }
 
 .row {
   width: auto;
 }
 
-#introduce {
-  font-size: 24px;
+.technologies{
+  padding-top: 20px;
 }
 
 .contact {
   font-size: 20px;
   padding-top: 30px;
+}
+
+/*social buttons*/
+
+.contact-btn-link {
+  /* font */
+  color: rgb(26, 26, 26);
+  font-size: 20px;
+  font-family: 'futura';
+
+  /* remove blue underline */
+  text-decoration: none;
+
+  /* border */
+  border: 2px solid rgb(26, 26, 26);
+  border-radius: 20px;
+
+  /* transitions */
+  transition-duration: .2s;
+  -webkit-transition-duration: .2s;
+  -moz-transition-duration: .2s;
+
+  /* other */
+  background-color: rgb(26, 26, 26);
+  padding: 4px 30px;
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.contact-btn-link:hover {
+  /* update text color and background color */
+  color:white;
+  background-color:white;
+
+   /* transitions */
+  transition-duration: .2s;
+  -webkit-transition-duration: .11s;
+  -moz-transition-duration: .2s;
+}
+
+.contact-btn .contact-btn-link {
+  /* font */
+  color: white;
+  /* border */
+  border: 2px solid white;
+}
+
+.contact-btn .contact-btn-link:hover {
+  /* font */
+  color: black;
+  /* border */
+  border: 2px solid rgb(26, 26, 26);
 }
